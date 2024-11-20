@@ -3,15 +3,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrgSJ49qK3Dfl40KVFZGFPL8eEyYEfzec",
-  authDomain: "crud-70688.firebaseapp.com",
-  projectId: "crud-70688",
-  storageBucket: "crud-70688.firebasestorage.app",
-  messagingSenderId: "480631098333",
-  appId: "1:480631098333:web:9eb4e2f391cfc797a34434",
-  measurementId: "G-D3S1MK1D7G"
+  apiKey: "AIzaSyBEyByvJq-1i5euRn6Oh1pC-m9x1eB0eBs",
+  authDomain: "meuprimeirofirebase-d50fe.firebaseapp.com",
+  projectId: "meuprimeirofirebase-d50fe",
+  storageBucket: "meuprimeirofirebase-d50fe.firebasestorage.app",
+  messagingSenderId: "928685046602",
+  appId: "1:928685046602:web:6c74ea002b160783d9dfb3"
 };
-
 //inicializando o firebase
   const app = initializeApp(firebaseConfig);
 //inicializando o firestore e analytics
